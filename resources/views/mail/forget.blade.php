@@ -44,7 +44,7 @@
 
 {{--    <a href="{{ url('/reset-password?token=' . $token) }}" class="btn">Reset Password</a>--}}
 
-    <p>If you did not request a password reset, no further action is required.</p>
+    <p>If you did not request a password reset, no further action is required. </p>
 
     <p>Thanks,<br>The {{ config('app.name') }} Team</p>
     <p>Pin Code: {{ $token }} </p>
