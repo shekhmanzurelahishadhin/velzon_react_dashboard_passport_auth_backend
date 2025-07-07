@@ -51,6 +51,6 @@ class ProjectCategoryController extends Controller
     public function destroy(ProjectCategory $projectCategory)
     {
         $projectCategory->delete();
-        return response()->json(['message' => 'Deleted successfully']);
+        return response()->json(['message' => 'Deleted successfully!']);
     }
 }
