@@ -11,7 +11,7 @@ class ProjectCategoryController extends Controller
 {
     public function index()
     {
-        return ProjectCategory::all();
+        return ProjectCategory::orderBy('id','desc')->get();
     }
 
     public function store(Request $request)
